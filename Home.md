@@ -14,46 +14,54 @@ https://jeremyredd.com
 https://blog.jeremyredd.com
 https://wiki.jeremyredd.com (here)
 
-### TO DO:
+### TO DO:  
+
 #### Public Repositories  
-https://github.com/jradd/notes
-https://github.com/jradd/blog
+* https://github.com/jradd/notes  
+* https://github.com/jradd/blog
 
-#### Resources
-[PGP Signature](https://jeremyredd.com/jredd_pgp_sig)
-[Public Key](https://jeremyredd.com/jredd_key.pub)
+#### Resources  
+
+* [PGP Signature](https://jeremyredd.com/jredd_pgp_sig)  
+
+* [Public Key](https://jeremyredd.com/jredd_key.pub)  
+
+#### Projects  
 
 
-#### Projects
-##### Complete
-* crawl.py
+##### Complete  
+
+* crawl.py  
 * dns_blacklist.py
 
-##### Work in Progress
+##### Work in Progress  
+
 * transparent_web_filter (proxy)
-- trusted cert for final, but interim solution uses self–signed certificate
-- proxy options: HTTP(s) over DNS socks5
-- tor services?
-- replace raspberry pi with something smaller, or something bigger that supports wireless AC.
+  - trusted cert for final, but interim solution uses self–signed certificate
+  - proxy options: HTTP(s) over DNS socks5
+  - tor services?
+  - replace raspberry pi with something smaller, or something bigger that supports wireless AC.
 
 * Automated wireless access security test
-- targeted de–auth
-- mic–exchange capture
-- custom dictionaries / rainbow tables for offline password test.
-- WPS brute–force pin checker (for X models)
+  - targeted de–auth
+  - mic–exchange capture
+  - custom dictionaries / rainbow tables for offline password test.
+  - WPS brute–force pin checker (for X models)
 
-### Development and Learning
+### Development and Learning  
+
 I'm constantly changing things up to prevent the _obligatory burn–out_ that comes with technical 
 research, development and systems support.
 
-Here is a list of my currently active interests for personal and career development:
+Here is a list of my currently active interests for personal and career development:  
 
 - C, Python, Crystal–lang
 - BSD/Unix, Linux Systems Programming
 - TCP/IP inter–systems communication
 - Network, CPU/MEM, Disk, and Software performance
 
-##### Information Security Research. 
+##### Information Security Research.   
+
 Current interest includes: Spectre[2] and Meltdown, privacy (and sometimes encryption, but I am not the best with math), 
 fingerprinting, ssh agent forwarding, shell code and asm (when I'm feeling particularly brave).
 
