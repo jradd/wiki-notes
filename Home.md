@@ -20,12 +20,12 @@ somerepo/dirp:latest
 
 
 
- **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").**
+Blog running **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").** without
+any content:
 
-Check out my barebones template if you'd like:  
-https://jeremyredd.com
-https://blog.jeremyredd.com
-https://wiki.jeremyredd.com (here)
+[https://JeremyRedd.com](https://jeremyredd.com)  
+[Blog](https://blog.jeremyredd.com)  
+Wiki [here](https://wiki.jeremyredd.com)  
 
 ### TO DO:  
 
