@@ -1,13 +1,25 @@
-# Hello World!
+# Hello World.
 
-I Just recently got my website environment up and running with SSL again after it has been
-down for a long time. I couldn't figure out how to get my container environment to work with letsencrypt
-until I fixed some DNS issues and modified my `docker-compose.yml` to use `nginx-gen` and most importantly;
-include the containers exposed port as a "VIRTUAL_PORT" in my `environment` field.
+configure `docker-compose.yml` to use `nginx-gen` and most importantly; 
+`VIRTUAL_PORT=` in addition to the required parameters:
 
-Anyways, i'm off to test my ssl implementation, and update my notes repository so there is some content on my wiki.
+Run:
+`docker-compose up`
 
-Also, I am playing around with **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").**
+Additional containers:
+
+```
+docker run -d \
+VIRTUAL_HOST=$NAMES
+LETSENCRYPT_HOST=$NAMES
+LETSENCRYPT_EMAIL=$EMAIL
+VIRTUAL_PORT=$EXPOSED
+somerepo/dirp:latest
+```
+
+
+
+ **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").**
 
 Check out my barebones template if you'd like:  
 https://jeremyredd.com
