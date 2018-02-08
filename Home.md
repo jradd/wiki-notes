@@ -1,4 +1,7 @@
-# Hello World.
+---
+GOLLEM WIKI
+---
+git–based wiki for notes
 
 configure `docker-compose.yml` to use `nginx-gen` and most importantly; 
 `VIRTUAL_PORT=` in addition to the required parameters:
