@@ -13,7 +13,7 @@
 
 
 
-
+```
 Below is a list of the different ICMP types that you can change within Scapy.
 | **TYPE**  |Code| Description                                                              |
 |----------:|:---|:------------------------------------------------------------------------:|
@@ -88,4 +88,6 @@ Datagram Conversion Error
 
 
 ### DNS RECORD TYPES
+```
+
 
