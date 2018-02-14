@@ -1,9 +1,9 @@
 ### Jeremy Redd
 
 ##### Contact  
-> 435.459.0046  
-> 1809 W 7600 S
-> West Jordan, UT  
+> 801.856.2453
+> contact@jeremyredd.com
+
 
 * 5+ years experience in Linux Systems
 * 3 years Development Experience (Python, Web, DevOps)
