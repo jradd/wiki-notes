@@ -1,20 +1,8 @@
+# Scapy IMCP Codes  
+
+> Todo: Fix formatting
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-Below is a list of the different ICMP types that you can change within Scapy.
 | **TYPE**  |Code| Description                                                              |
 |----------:|:---|:------------------------------------------------------------------------:|
 | 0         |    |– Echo Reply | Echo reply (used to ping)                                  |
@@ -34,16 +22,16 @@ Below is a list of the different ICMP types that you can change within Scapy.
 | 15        |    | Precedence cutoff in effect                                              |
 |           |  0 |Source quench (congestion control)                                        |
 |           | 0  |Redirect Datagram for the Network                                         |
-| |1 |Redirect Datagram for the Host|
-| |2 |Redirect Datagram for the TOS & network|
-||3| 
-| |5 – Redirect Message|
-| | |Destination protocol unreachable|
-| |3 ||
-| |4| – Source Quench|
-| | | Destination host unreachable|
-| |2| |
-| |3| – Destination Unreachable|
+|           |1   |Redirect Datagram for the Host                                            |
+|           |2   |Redirect Datagram for the TOS & network                                   |
+|           |3   |                                                                          |
+|           |    |5 – Redirect Message|
+|           |    |Destination protocol unreachable|
+|           |3   ||
+|           |4   | – Source Quench|
+|           |    | Destination host unreachable|
+|           |2   |  |
+|           |3   | – Destination Unreachable|
 | | | Destination network unreachable|
 | |1| Redirect Datagram for the TOS & host|
 | 6| | Alternate Host Address|
@@ -61,33 +49,27 @@ Below is a list of the different ICMP types that you can change within Scapy.
 |15| | – Information Request |
 |  |0|  Information Request|
 |16| |  – Information Reply 0 Information Reply|
-| 17 – Address Mask Request 0 Address Mask Request
-| 18 – Address Mask Reply 0 Address Mask Reply
-  19 
-| 11 – Time Exceeded
-| 12 – Parameter Problem: Bad IP header
-Reserved for security
-Reserved for robustness experiment
-| 20 through 29
-| 30 – Traceroute
-| 31
-Information Request
-Datagram Conversion Error
-42
-32 Mobile Host Redirect
-33 Where-Are-You (originally meant for IPv6)
-34 35 Here-I-Am (originally meant for IPv6)
-     Mobile Registration Request
-36 Mobile Registration Reply
-37 Domain Name Request
-38 Domain Name Reply
-39 SKIP Algorithm Discovery Protocol, Simple Key-Management for Internet Protocol
-40 Photuris, Security failures
-41 ICMP for experimental mobility protocols such as Seamoby [RFC4065]
-42 through 255 Reserved
-
-
-### DNS RECORD TYPES
-```
-
-
+|17| – Address Mask Request 0 Address Mask Request|
+| 18| – Address Mask Reply 0 Address Mask Reply|
+|  | 19 | |
+| |11 – Time Exceeded|
+| |12| – Parameter Problem: Bad IP header|
+| | Reserved for security|
+| | Reserved for robustness experiment|
+| 20| through 29|
+| |30| – Traceroute|
+| |31| |
+| | Information Request|
+| | Datagram Conversion Error|
+| |42| |
+| |32| Mobile Host Redirect|
+|33| Where-Are-You (originally meant for IPv6)|
+|34| 35| Here-I-Am (originally meant for IPv6)|
+|  |  | Mobile Registration Request|
+|  |36| Mobile Registration Reply|
+||37| Domain Name Request|
+||38| Domain Name Reply|
+||39| SKIP Algorithm Discovery Protocol, Simple Key-Management for Internet Protocol|
+||40| Photuris, Security failures|
+||41| ICMP for experimental mobility protocols such as Seamoby [RFC4065]|
+||42| through 255 Reserved|  

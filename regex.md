@@ -43,12 +43,39 @@ Join two REGEX by joining with the infix operator `|;`
 `Repitition` takes precedence over `concatenation` which in turn takes
 precedence over `alternation`.
 
-###### Basic VS Extended  
-Basic     --> escape expressions (eg; `\?`)
-Extended  --> no need to escape
-          `[{]` matches literal "{"  
 
-## Cheat Sheet / Reference   
+## Perl Grep (pcre)
+Enable Perl regex with flag `-P`
+
+
+```
+(?(DEFINE) (?<byte> 2[0-4]\d | 25[0-5] | 1\d\d | [1-9]?\d) )
+         \b (?&byte) (\.(?&byte)){3} \b
+
+       The first part of the pattern is a DEFINE group inside which a another group named "byte" is defined. This matches an individual component of an IPv4 address (a number less than 256). When matching takes place, this  part  of  the  pattern  is
+       skipped because DEFINE acts like a false condition. The rest of the pattern uses references to the named group to match the four dot-separated components of an IPv4 address, insisting on a word boundary at each end.
+```
+
+### Positive Lookahead
+`grep -Po "(?=<a>)[[:digit:]]{3}"`  
+
+#### Positive Lookahead Assertion with subroutine
+
+```
+  (?(?=[^a-z]*[a-z])
+  \d{2}-[a-z]{3}-\d{2}  |  \d{2}-\d{2}-\d{2} )
+
+The condition is a positive lookahead assertion that matches an optional sequence of non-letters followed by a letter. In other words, it tests for the presence of at least one letter in the subject. If  a  letter  is  found,  the  subject  is
+matched against the first alternative; otherwise it is matched against the second. This pattern matches strings in one of the two forms dd-aaa-dd or dd-dd-dd, where aaa are letters and dd are digits.
+```
+
+### Negative Lookahead  
+
+I suppose a negative lookahead is something like the following:  
+`grep -Po "$IP_PATTERN(?=</a>)"`  
+
+
+## Reference
 
 |Char| Function       |
 |:-:|:----------------|
