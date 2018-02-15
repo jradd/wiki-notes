@@ -18,7 +18,6 @@ VIRTUAL_PORT=$EXPOSED
 somerepo/dirp:latest
 ```
 
-test
 
 Blog running **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").** without
 any content:
