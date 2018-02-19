@@ -1,7 +1,8 @@
-! *
-*.md
-uploads/*
-projects/*
-*.sh
-*.py
-*.html
+/*
+! *.md
+! uploads/*
+! projects/**
+! projects/*
+! *.sh
+! *.py
+! *.html
