@@ -1,0 +1,7 @@
+! *
+*.md
+uploads/*
+projects/*
+*.sh
+*.py
+*.html
