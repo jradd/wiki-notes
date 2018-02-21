@@ -57,7 +57,7 @@ Enable Perl regex with flag `-P`
 ```
 
 ### Positive Lookahead
-`grep -Po "(?=\<a\>)[[:digit:]]{3}"`  
+`grep -Po "(?='<a>')[[:digit:]]{3}"`  
 
 #### Positive Lookahead Assertion with subroutine
 
