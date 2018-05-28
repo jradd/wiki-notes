@@ -25,8 +25,8 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 | |1 block| RAM disk|                                                         |
 | |0 = /dev/ram0        |		First RAM disk|
 | |1 = /dev/ram1	    |	Second RAM disk|
-| | ...|
-| |250 = /dev/initrd|	Initial RAM disk {2.6}|
+
+250 = /dev/initrd        Initial RAM disk {2.6}
 
 		Older kernels had /dev/ramdisk (1, 1) here.
 		/dev/initrd refers to a RAM disk which was preloaded
