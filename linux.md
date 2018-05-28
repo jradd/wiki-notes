@@ -3,13 +3,19 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 
 ## Linux
 
+### Shared Memory
+
+
+
+* `/dev/pts       devpts`     PTY slave filesystem
+* `/dev/shm       tmpfs`      POSIX shared memory maintenance access
+
+
+
+
+`mount -t tmpfs -o size=10G,nr_inodes=10k,mode=0700 tmpfs /mytmpfs`  
 
 ### Memory Devices
-
-0		Unnamed devices (e.g. non-device mounts)
-		  0 = reserved as null device number
-		See block major 144, 145, 146 for expansion areas.
-
 
 |  1 char |Memory devices    |Description 									  |
 |:--------|:-----------------|:-----------------------------------------------|
@@ -27,20 +33,9 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 |1 block| RAM disk|                                                         |
 | |0 = /dev/ram0        |		First RAM disk|
 | |1 = /dev/ram1	    |	Second RAM disk|
-||250 = /dev/initrd | Initial RAM disk (2.6) **newer kernels use `/dev/ram0`**|
+||250 = /dev/initrd | Initial RAM disk (2.6) **newer kernels use `/dev/ram0`**|   
 
 
-### Shared Memory
-
-
-
-* `/dev/pts       devpts`     PTY slave filesystem
-* `/dev/shm       tmpfs`      POSIX shared memory maintenance access
-
-
-
-
-`mount -t tmpfs -o size=10G,nr_inodes=10k,mode=0700 tmpfs /mytmpfs`  
 
 Read more about [tmpfs].
 
@@ -51,3 +46,4 @@ Read more about [tmpfs].
 
 
 [tmpfs]: http://lwn.net/2001/1206/a/tmpfs.php3
+[devices]: https://mirrors.edge.kernel.org/pub/linux/docs/lanana/device-list/devices-2.6.txt
