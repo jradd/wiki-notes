@@ -9,8 +9,10 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 0		Unnamed devices (e.g. non-device mounts)
 		  0 = reserved as null device number
 		See block major 144, 145, 146 for expansion areas.
-|:--------|:-----------------|:-----------------------------------------------|
+
+
 |  1 char |Memory devices    |Description 									  |
+|:--------|:-----------------|:-----------------------------------------------|
 |		 | 1 = /dev/mem		|Physical memory access|
 |		 | 2 = /dev/kmem	|Kernel virtual memory access|
 |		 | 3 = /dev/null	|Null device|
