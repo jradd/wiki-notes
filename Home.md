@@ -78,4 +78,4 @@ Wiki [here](https://wiki.jeremyredd.com)
 
 
 #### Newish
-[linux] 
+[linux](/linux)
