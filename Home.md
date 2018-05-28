@@ -60,16 +60,12 @@ Wiki [here](https://wiki.jeremyredd.com)
 * [dns_blacklist.py](dns_blacklist)  
 
 ### To Do
-* Finish frontend for blog
-* Publish posts
-* Portal
-- crystal-lang webserver
-- flask-app
-I want to build a SPA with ReactJS on flask with rest.
-NOT EASY
-- crystal-lang c bindings (lua, pcap)
-Cannot figure out how to get these working on mac or linux. I think it is
-related to my c library path.
+* Finish frontend for blog - WIP
+* Publish posts - WIP
+* Portal - WIP
+- ~~crystal-lang webserver~~
+- ~~flask-app~~ Boilerplate [Finished!](https://jeremyredd.com)  
+- crystal-lang - pcap
 
 
 
