@@ -35,8 +35,7 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 | |1 = /dev/ram1	    |	Second RAM disk|
 ||250 = /dev/initrd | Initial RAM disk (2.6) **newer kernels use `/dev/ram0`**|   
 
-For some reason I am unable to commit my git repo with this
-[URL](https://mirrors.edge.kernel.org/pub/linux/docs/lanana/device-list/devices-2.6.txt) present.  
+For some reason I am unable to commit my git repo with this [URL] present.  
 
 
 Read more about [tmpfs].
@@ -48,3 +47,4 @@ Read more about [tmpfs].
 
 
 [tmpfs]: http://lwn.net/2001/1206/a/tmpfs.php3
+[URL]: https://mirrors.edge.kernel.org/pub/linux/docs/lanana/device-list/devices-2.6.txt
