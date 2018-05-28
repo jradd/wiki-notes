@@ -6,7 +6,6 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 
 ### Memory Devices
 
-```
 0		Unnamed devices (e.g. non-device mounts)
 		  0 = reserved as null device number
 		See block major 144, 145, 146 for expansion areas.
@@ -33,9 +32,6 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 		/dev/initrd refers to a RAM disk which was preloaded
 		by the boot loader; newer kernels use /dev/ram0 for
 		the initrd.
-...
-```  
-
 
 
 ### Shared Memory
