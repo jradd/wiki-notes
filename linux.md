@@ -37,6 +37,7 @@ Notes on Linux, Unix, BSD or Windows File Systems and Storage.
 
 For some reason I am unable to commit my git repo with this [URL] present.  
 
+Refer to [devices] for a complete list.
 
 Read more about [tmpfs].
 
@@ -48,3 +49,4 @@ Read more about [tmpfs].
 
 [tmpfs]: http://lwn.net/2001/1206/a/tmpfs.php3
 [URL]: https://mirrors.edge.kernel.org/pub/linux/docs/lanana/device-list/devices-2.6.txt
+[devices]: https://mirrors.edge.kernel.org/pub/linux/docs/lanana/device-list/devices-2.6.txt
