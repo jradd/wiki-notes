@@ -1,29 +1,10 @@
 # GOLLUM WIKI
-git–based wiki for notes
-
-configure `docker-compose.yml` to use `nginx-gen` and most importantly; 
-`VIRTUAL_PORT=` in addition to the required parameters:
-
-Run:
-`docker-compose up`
-
-Additional containers:
-
-```
-docker run -d \
-VIRTUAL_HOST=$NAMES
-LETSENCRYPT_HOST=$NAMES
-LETSENCRYPT_EMAIL=$EMAIL
-VIRTUAL_NETWORK=nginx-proxy
-VIRTUAL_PORT=$EXPOSED
-somerepo/dirp:latest
-```
-
-Blog running **[Jekyll](https://jekyllrb.com/docs/home/ "Blog–aware, static site–generator.").**  
 
 [https://JeremyRedd.com](https://jeremyredd.com)  
 [Blog](https://blog.jeremyredd.com)  
 Wiki [here](https://wiki.jeremyredd.com)  
+Production [Development](https://demo.jeremyredd.com)  
+[Portfolio](https://jeremyredd.com/portfolio)  
 
 ## Links  
 [github/jtredd](https://github.com/jtredd)  
@@ -37,37 +18,19 @@ Wiki [here](https://wiki.jeremyredd.com)
 [Reddit](https://www.reddit.com/user/jradd)  
 [SuperUser](https://superuser.com/users/87239/jredd)  
 [StackOverflow](https://stackoverflow.com/users/2789486/jredd)  
+[old notes](https://github.com/jradd/wiki-notes)
 
 
-### TO DO:  
-
-#### Public Repositories  
-* https://github.com/jradd/wiki-notes  
-* https://github.com/jradd/blog
-
-#### Resources  
+#### Contact  
 
 * [PGP Signature](https://jeremyredd.com/jredd_pgp_sig)  
 
 * [Public Key](https://jeremyredd.com/jredd_key.pub)  
 
 #### Projects  
-
-
-##### Complete  
-
-* [crawl.py](crawl)  
-* [dns_blacklist.py](dns_blacklist)  
-
-### To Do
-* Finish frontend for blog - WIP
-* Publish posts - WIP
-* Portal - WIP
-- ~~crystal-lang webserver~~
-- ~~flask-app~~ Boilerplate [Finished!](https://jeremyredd.com)  
-- crystal-lang - pcap
-
-
+* [Learn Django](https://demo.jeremyredd.com)  
+* [Personal Pipeline](https://github.com/jtredd/jeremyredd.com)  
+* [Crawl Webpage](https://github.com/jtredd/walk)  
 
 ### Development and Learning  
 
@@ -75,7 +38,4 @@ Wiki [here](https://wiki.jeremyredd.com)
 - BSD/Unix, Linux Systems Programming
 - TCP/IP inter–systems communication
 - Network, CPU/MEM, Disk, and Software performance
-
-
-#### Newish
-[linux](/linux)
+- Front–end Development  

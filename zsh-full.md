@@ -1,1 +1,0 @@
-Facebook Strategies and Profits - http://bigatel.info/
